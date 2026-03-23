@@ -5,10 +5,7 @@ export const Navbar = () => {
 
   return (
     <header className="px-10 pt-8">
-      <span className="text-[22px] font-bold tracking-tight">
-        {navbar.brandPrefix}
-        <span className="text-[15px]">{navbar.brandSuffix}</span>
-      </span>
+      <span className="text-[22px] font-bold tracking-tight">{navbar.brand}</span>
     </header>
   );
 };
